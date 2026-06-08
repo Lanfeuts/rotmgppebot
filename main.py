@@ -76,7 +76,7 @@ from utils.autocomplete import class_autocomplete, item_name_autocomplete, bonus
 SERVER1_ID = 742837818329661472 # Last Oasis
 SERVER2_ID = 764851058366218282 # Test Server
 
-guilds = [discord.Object(id=SERVER1_ID), discord.Object(id=SERVER2_ID), discord.Object(id=SERVER3_ID)]
+guilds = [discord.Object(id=SERVER1_ID), discord.Object(id=SERVER2_ID)]
 
 load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
